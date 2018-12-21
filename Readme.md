@@ -1,4 +1,4 @@
-##Installation steps
+## Installation steps
   1. Go to `https://console.firebase.google.com` and create a project.
   2. On project overview choose `Add Firebase to your web app`.
   3. Copy given config into `Config.js`.
