@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "Hisli Panda React Native Demo Project",
+    "slug": "hislipandademo",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.3.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "facebookScheme": "<YOUR FACEBOOK SCHEME>",
+    "facebookAppId": "<YOUR FACEBOOK APP ID>",
+    "facebookDisplayName": "<YOUR FACEBOOK DISPLAY NAME>",
+    "ios": {
+      "supportsTablet": false,
+      "config": {
+        "googleMapsApiKey": "<GOOGLE MAPS API KEY FOR IOS>"
+      },
+      "bundleIdentifier": "<APPLE.BUNDLE.ID>",
+      "infoPlist": {
+        "NSLocationAlwaysUsageDescription": "We need your location.",
+        "NSLocationWhenInUseUsageDescription": "We need your location."
+      }
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey":  "<GOOGLE MAPS API KEY FOR ANDROID>"
+        }
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "package":  "<ANDOID.BUNDLE.ID>",
+      "versionCode": 7
+    }
+  },
+  "notification": {
+    "icon": "./assets/notification.png"
+  }
+}
